@@ -31,7 +31,7 @@ body {
 
 h1 {
   text-align: center;
-  background-color: #f4a226;
+  background-color: #19de0e;
   font-family: "Monoton";
   font-size: 8rem;
   text-transform: lowercase;
@@ -42,7 +42,7 @@ h1 {
 }
 
 .add-form {
-  background-color: #e5771f;
+  background-color: #ee0ac0;
   padding: 2.8rem 0;
   display: flex;
   align-items: center;
@@ -98,7 +98,7 @@ input {
 .list ul {
   list-style: none;
   width: 80%;
-  overflow: ;
+  overflow:hidden ;
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -116,7 +116,7 @@ input {
 input[type="checkbox"] {
   height: 2rem;
   width: 2rem;
-  accent-color: #e5771f;
+  accent-color: #e60861;
 }
 
 .list li button {
@@ -129,8 +129,21 @@ input[type="checkbox"] {
 }
 
 .stats {
-  background-color: #76c7ad;
+  background-color: aqua;
   text-align: center;
   font-weight: 700;
   padding: 3.2rem 0;
+}
+.footer{
+  background-color: aqua;
+  color: black;
+  display: flex;
+  font-weight: 700;
+  padding-left: 39%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+ align-items: center;
+  font-size: 700;
+  height: inherit;
+  width: auto;
 }
